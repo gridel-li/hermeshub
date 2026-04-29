@@ -2,7 +2,7 @@
 """
 Fetch Bilibili video subtitles and top comments as structured JSON.
 
-对标 youtube-content 的 fetch_transcript.py。字幕获取支持三策略：
+字幕获取支持三策略：
 1. AI 自动生成 (ai-zh) — player/wbi/v2，需 Cookie
 2. 投稿者上传 (zh) — get_subtitle()，无需 Cookie
 3. 本地 Whisper ASR — --asr-fallback，需 ffmpeg + faster-whisper
